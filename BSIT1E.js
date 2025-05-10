@@ -5,7 +5,7 @@ export const bsit1e = [
   { name: "BALANE, Carlo R.", grade: 1.9, code: "XEN5B" },
   { name: "BALLERDA, Micheal Vincent M.", grade: 2.5, code: "K3TWM" },
   { name: "CAPITIN, Jaq Maica M.", grade: 2.7, code: "RQJ8Z" },
-  { name: "CONCHA, John Philip L.", grade: 3.3, code: "Y5NFX" },
+  { name: "CONCHA, John Philip L.", grade: "INC", code: "Y5NFX" },
   { name: "DISTAJO, John Benedict R.", grade: 2.6, code: "D7WKL" },
   { name: "FIRMEZA, Carl Ian G.", grade: 2.6, code: "LU39E" },
   { name: "FRIAS, Danica R.", grade: 1.7, code: "BHT4M" },
