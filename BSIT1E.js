@@ -1,7 +1,7 @@
 export const bsit1e = [
   { name: "ABADECIO, Gerald", grade: 2.1, code: "Z8X2L" },
   { name: "ALAVANZAS, Richard Benedict J.", grade: 2.6, code: "MOR9Q" },
-  { name: "ALINGOD, Lois Raien M.", grade: 4.3, code: "VPL7D" },
+  { name: "ALINGOD, Lois Raien M.", grade: 5.0, code: "VPL7D" },
   { name: "BALANE, Carlo R.", grade: 1.9, code: "XEN5B" },
   { name: "BALLERDA, Micheal Vincent M.", grade: 2.5, code: "K3TWM" },
   { name: "CAPITIN, Jaq Maica M.", grade: 2.7, code: "RQJ8Z" },
@@ -24,7 +24,7 @@ export const bsit1e = [
   { name: "MANOOS, Karish Montemar", grade: 2.8, code: "DPL9E" },
   { name: "NABING, Llewelyn Chate C.", grade: 2.9, code: "ZYW7F" },
   { name: "NALING, Jean Jewell Kris O.", grade: 2.0, code: "CTO3V" },
-  { name: "NOGALES, John Harris Jim", grade: 4.7, code: "BRK6M" },
+  { name: "NOGALES, John Harris Jim", grade: 5.0, code: "BRK6M" },
   { name: "PARAGAS, Ken Zander M.", grade: 1.6, code: "QEP1N" },
   { name: "QUINTO, Princess Erlain M.", grade: 2.3, code: "MJX5L" },
   { name: "RAYOS, Lyra Jane P.", grade: 2.4, code: "UYT9Z" },
