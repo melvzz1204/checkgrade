@@ -10,14 +10,14 @@ const sections = {
 
 function getCurrentSection() {
   const sectionSelect = document.getElementById("sectionSelect");
-  return sections[sectionSelect.value] || bsit1e; // default to bsit1e if no selection
+  return sections[sectionSelect.value];
 }
 
 document.querySelector("button").addEventListener("click", () => {
   const firstName = document.querySelector('[name="firstname"]').value.trim();
   const lastName = document.querySelector('[name="lastname"]').value.trim();
   const codeDisplay = document.getElementById("studentCode");
-  const selectedSection = getCurrentSection();
+  const currentSection = getCurrentSection();
 
   if (!firstName || !lastName) {
     codeDisplay.textContent = "Please enter both first name and last name";
@@ -25,7 +25,7 @@ document.querySelector("button").addEventListener("click", () => {
     return;
   }
 
-  const foundStudent = selectedSection.find((s) => {
+  const foundStudent = currentSection.find((s) => {
     const fullName = s.name.toLowerCase();
     return (
       fullName.includes(firstName.toLowerCase()) &&
@@ -38,7 +38,7 @@ document.querySelector("button").addEventListener("click", () => {
     codeDisplay.textContent = `Your Code: ${foundStudent.code}`;
   } else {
     codeDisplay.className = "text-center text-lg font-semibold text-red-500";
-    codeDisplay.textContent = "Student not found in selected section";
+    codeDisplay.textContent = "Student not found";
   }
 });
 
